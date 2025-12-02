@@ -1,0 +1,22 @@
+.nav-item:hover{
+  background-color:#BBBBBB;
+  transition-duration: 0.3s;
+}
+.nav-item{
+  border-radius: 8px;
+}
+
+.prof-img{
+  border-radius: 20%;
+}
+.fit-screen{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 786px){
+  .fit-screen{
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+}
